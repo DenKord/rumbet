@@ -6,13 +6,14 @@
         local("Next Art"), 
         url("../fonts/NEXTART_Bold.otf") format("opentype");
 }
-
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-user-select: none;
-user-drag: none;
--webkit-user-drag: none;
+img{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
 
 * {
     margin: 0;
